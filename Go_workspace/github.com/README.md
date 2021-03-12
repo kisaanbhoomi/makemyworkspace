@@ -2,7 +2,7 @@
 
 **1. Create project structure**
 
-mkdir -p github.com/your_github_username && cd github.com/your_github_username && mkdir some_project && cd some_project && mkdir -p {pkg,services,vendor} && cd services && mkdir -p {login,account,auth,user} && cd ../../../
+    $mkdir -p github.com/your_github_username && cd github.com/your_github_username && mkdir some_project && cd some_project && mkdir -p {pkg,services,vendor} && cd services && mkdir -p {login,account,auth,user} && cd ../../../
 
 This is how the project structure looks
 
