@@ -6,7 +6,7 @@
 
 This is how the project structure looks
 
-<img src="carbon.png" width="300">
+<img src="go_project_structure.png" width="300">
 
 **2. Go Mod**
 
