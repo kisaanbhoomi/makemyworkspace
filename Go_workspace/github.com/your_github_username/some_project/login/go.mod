@@ -1,4 +1,4 @@
-module github.com/your_github_username/some_project/services/login
+module github.com/your_github_username/some_project/login
 
 go 1.16
 
