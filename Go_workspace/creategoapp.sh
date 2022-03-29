@@ -21,5 +21,5 @@ if [ -z "$GITHUBUSERNAME" ] || [ -z "$PROJECT" ]; then
 fi
 
 if [ "$CREATEAPP" == true ]; then
-	mkdir KisanBhoomi && cd KisanBhoomi && mkdir -p {bin,github.com,pkg} && cd github.com && mkdir "${GITHUBUSERNAME}" && cd "${GITHUBUSERNAME}" && mkdir "${PROJECT}" && cd "${PROJECT}" && mkdir src && touch main.go && go mod init github.com/"${GITHUBUSERNAME}"/"${PROJECT}" && cd src && mkdir -p {controller,middleware,response} && touch server.go
+	mkdir "${PROJECT}_WORKSPACE" && cd "${PROJECT}_WORKSPACE" && mkdir -p {bin,github.com,pkg} && cd github.com && mkdir "${GITHUBUSERNAME}" && cd "${GITHUBUSERNAME}" && mkdir "${PROJECT}" && cd "${PROJECT}" && mkdir src && touch main.go && go mod init github.com/"${GITHUBUSERNAME}"/"${PROJECT}" && cd src && mkdir -p {controller,middleware,response} && touch server.go
 fi
